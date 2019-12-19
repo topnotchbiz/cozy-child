@@ -1,0 +1,427 @@
+.btn-add-logo.edgtf-btn.edgtf-btn-solid {
+    background-color: #ff5f27;
+    border-color: #ff5f27;
+}
+
+.variation_customization_wrap {
+    padding-top: 20px;
+}
+
+.embroidered_price.close {
+    display: none;
+}
+
+.embroidered_price table thead tr {
+    border: 0;
+}
+
+.embroidered_price table th {
+    font-size: 20px;
+    color: #555;
+    text-align: left;
+    padding: 0 0 10px;
+}
+
+.embroidered_price table th .tooltiptext {
+    font-size: 15px;
+    float: right;
+    color: #69c5d3;
+}
+
+.embroidered_price table td {
+    font-size: 18px;
+    text-align: center;
+}
+
+.embroidered_price table td .total_each {
+    font-size: 12px;
+}
+
+.embroidered_price table thead {
+    color: #333;
+}
+
+.embroidered_price table tbody tr {
+    border: 0;
+}
+
+.embroidered_price table tbody tr:nth-child(odd) {
+    background: #E5E5E5;
+}
+
+.embroidered_price table tbody tr:first-child td {
+    font-weight: 800;
+}
+
+.embroidered_price table tbody tr:last-child td {
+    font-size: 1em;
+    padding: 10px 5px;
+}
+
+.embroidered_buttons {
+    margin-top: 30px;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.embroidered_buttons .embroidered_price_btn {
+    -webkit-box-flex: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-top: 3px solid #69c5d3;
+    color: #69c5d3;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.embroidered_price_btn.close {
+    background-color: #e8edea;
+    border-top: 3px solid #e8edea;
+    color: #333;
+}
+
+.embroidered_price table {
+    table-layout: fixed;
+}
+
+.resize-triggers {
+    -webkit-animation: 1ms resizeanim;
+    animation: 1ms resizeanim;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.resize-triggers, .resize-triggers > div, .contract-trigger:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.resize-triggers > div {
+    background: #eee;
+    overflow: auto;
+}
+
+.ndx-App-holder .woocommerce-message {
+    margin: 15px 30px;
+}
+
+.ndx-Variation-Gallery {
+    padding: 15px 0;
+}
+
+.ndx-Variation-Gallery .slick-track {
+    margin: 0 auto;
+}
+
+.ndx-Variation-Gallery--slider .slick-arrow {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 9;
+}
+
+.ndx-Variation-Gallery--slider .slick-arrow:before {
+    color: #232323;
+    font-family: 'ElegantIcons';
+    font-size: 35px;
+    line-height: 26px;
+}
+
+.ndx-Variation-Gallery--slider .slick-arrow:hover:before {
+    color: #69c5d3;
+}
+
+.ndx-Variation-Gallery--slider .slick-prev:before {
+    content: "\34";
+}
+
+.ndx-Variation-Gallery--slider .slick-prev {
+    left: 0;
+}
+
+.ndx-Variation-Gallery--slider .slick-next {
+    left: auto;
+    right: 0;
+}
+
+.ndx-Variation-Gallery--slider .slick-next:before {
+    content: "\35";
+}
+
+.ndx-Variation-Gallery--slider .slick-disabled:hover:before {
+    color: #888;
+}
+
+.ndx-Variation-slide {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ndx-Variation-slide-img img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.ndx-Variation-slide-text {
+    color: #333;
+}
+
+.ndx-Add-to-Cart-holder {
+    padding: 15px 30px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #c6f7ff;
+    z-index: 999;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.ndx-Add-to-Cart-holder input:first-child {
+    margin-right: 10px;
+    background: #fff;
+}
+
+.prod-Cart-info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.prod-Design-costs {
+    margin-right: 1em;
+    font-size: 16px;
+}
+
+.prod-Design-costs {
+    color: #000;
+    font-weight: 700;
+}
+
+.prod-Design-costs span.print-msg {
+    color: #ff5f27;
+    font-weight: 700;
+}
+
+.mfp-content .prod-Design {
+    background: #ffffff;
+    padding: 3em;
+    box-sizing: border-box;
+    max-width: calc(100% - 60px);
+    width: 1000px;
+    overflow: auto;
+    margin: 2em auto;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.mfp-content .prod-Design .prod-Design-content {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 2em;
+}
+
+.mfp-content .prod-Design .prod-Item-details {
+    max-width: initial;
+}
+
+.mfp-content .prod-Design .prod-Item {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.mfp-content .prod-Design .prod-Item-canvasContainer {
+    padding-right: 15px;
+    width: auto;
+}
+
+.mfp-content .prod-Design .prod-Item-canvasContainer img {
+    width: 200px;
+}
+
+.mfp-content .prod-Msg {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1em;
+    position: relative;
+    color: #000;
+}
+
+.mfp-content .prod-Item-buttons {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+}
+
+.mfp-content .prod-Item-buttons .edgtf-btn {
+    min-width: 300px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.mfp-content .prod-Item-buttons .edgtf-btn:first-child {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .ndx-App.ndx-Container--relative {
+        height: calc(100vh - 201px);
+    }
+
+    .ndx-Variation-Gallery {
+        padding-top: 5px;
+        padding-bottom: 114px;
+    }
+
+    .ndx-Variation-slide-img img {
+        width: 55px;
+        height: 56px;
+    }
+
+    .prod-Cart-info {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .prod-Design-costs {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .mfp-content .prod-Design {
+        flex-direction: column;
+        padding: 3em 2em 2em;
+    }
+
+    .mfp-content .prod-Design .prod-Design-content {
+        margin-bottom: 1em;
+        padding-right: 0;
+    }
+
+    .mfp-content .prod-Design .prod-Item-canvasContainer {
+        border-right: 0;
+        margin: 0 0 15px;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mfp-content .prod-Design .prod-Item-canvasContainer img {
+        max-width: 200px;
+        display: inline-block;
+    }
+
+    .mfp-content .prod-Item-buttons .edgtf-btn {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .ndx-Variation-Gallery {
+        padding-bottom: 10px;
+    }
+
+    .ndx-Add-to-Cart-holder {
+        position: relative;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+
+    .ndx-Add-to-Cart-holder input:first-child {
+        -ms-flex-order: 3;
+        order: 3;
+        margin: 10px 0 0;
+    }
+
+    .prod-Cart-info {
+        display: block;
+        text-align: right;
+    }
+
+    .prod-Cart-info .edgtf-btn {
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ndx-App-holder {
+        padding-bottom: 0 !important;
+    }
+    
+    .embroidered_buttons .embroidered_price_btn {
+        font-size: 12px;
+        line-height: 1.5em;
+        padding: 5px;
+    }
+
+    .embroidered_price table td {
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+
+    .embroidered_price .woocommerce-Price-amount.amount {
+        font-size: 14px;
+    }
+}
